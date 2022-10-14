@@ -1,0 +1,5 @@
+create database webtrab;
+use webtrab;
+create table usuario(cod int(8) primary key auto_increment,
+					login varchar(40) not null,
+					senha varchar(40) not null);
